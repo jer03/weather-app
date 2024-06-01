@@ -1,10 +1,10 @@
 #container {
-    padding: 90px;
+    padding: 40px;
     margin-left: 300px;
     margin-right: 300px;
     margin-top:70px;
     border: 2px solid rgba(16, 16, 16, 0.5);
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 0 50px rgba(7, 5, 18, 0.5);
 }
 
@@ -18,18 +18,15 @@
     border: solid rgba(2, 1, 5, 0.5);
     border-radius: 10px;
     height: 40px;
-    margin-left: 4px;
+    margin-left: 45px;
     margin-top: 20px;
     font-size: 15px;
 }
 #button {
-    position: absolute;
     padding: 10px;
-    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: Comic Sans MS;
-    border: solid;
+    margin-left:10px;
     border-radius: 50%;
 }
 

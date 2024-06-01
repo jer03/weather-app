@@ -18,10 +18,11 @@ function Weather() {
 
   return (
     <>
+      <h1> The Simple Weather App</h1>
       <div id="container" >
         <div id="text"> Enter City Here:</div>
         <input id="input" type="text" value={city} onChange={(e) => setCity(e.target.value)} placeholder="Enter le city"/>
-        <button id="button" onClick={getWeather}><FontAwesomeIcon icon={faSearch} /></button> 
+        <button id="button" onClick={getWeather}><FontAwesomeIcon icon={faSearch} /></button>
       </div>
       {weatherData && (
         <div id="content">

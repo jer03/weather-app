@@ -5,7 +5,6 @@ function App() {
   
   return (
     <div className="App">
-      <h1> The Simple Weather App</h1>
       <img className="images" src="/cloud.png" alt="clouds" />
       <Weather />
     </div>
